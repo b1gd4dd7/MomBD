@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Happy Birthday, Mom!</title>
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Just+Another+Hand' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<h1>Happy Birthday, Mom!</h1>
+		<div id="AudioButton">
+			<button onclick="playMuteAudio()">Mute/Play Ooga Chakas</button>
+		</div>
+		<img id="pic" src="img/dog-smile.jpg" height="400px" width="600px"/>
+		<br/>
+		<br/>
+		<div id="text">
+			<p>For your birthday I pulled up a small slideshow of pictures and the following video of Bryan and me playing the song "Sunday Morning" from Mothers Day, 2013.</p>
+		</div>
+		<br/>
+		<video id="video" width = "400">
+			<source src="video/mothersday13.mp4" type="video/mp4">
+			**Your browser does not support this video clip**
+		</video>
+		<div id="VidButton1">
+			<button id="pp" onclick="playPauseVideo()">Play/Pause Video</button>
+		</div>
+		<div id="VidButton2">
+			<button onclick="makeBig()">Make Larger</button>
+			<button onclick="makeSmall()">Make Smaller</button>
+		</div>
+		<br/>
+		<div id="AudioButton">
+			<button onclick="playMuteAudio()">Mute/Play Ooga Chakas</button>
+		</div>
+		<audio id="audio" controls autoplay hidden>
+			<source src="audio/hooked.mp3" type="audio/mp3">
+			**Your browser does not support this audio clip**
+		</audio>
+		<script type = "text/javascript" src="main.js"></script>
+	</body>
+</html>

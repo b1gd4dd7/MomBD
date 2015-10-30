@@ -1,0 +1,62 @@
+h1 {
+	text-align: center;
+	font-family: "Candal";
+	font-size: 100px;
+}
+
+#text {
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 30px;
+	color: #000000;
+	background-color: #3b5998;
+	border-radius: 6px;
+	border: solid 3px #1c1c2f;
+}
+
+img {
+	display:block;
+	margin:auto;
+	border: solid 6px #1c1c2f;
+}
+
+video {
+	display: block;
+	margin: auto;
+}
+
+button {
+	border-radius: 5px;
+	font-family: Verdana;
+	background-color: #afeeee;
+	color: #5D5C58;
+}
+
+#AudioButton {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#VidButton1 {
+	width: 150px;
+	margin: 0 auto;
+}
+
+#VidButton2 {
+	width: 250px;
+	margin:0 auto;
+}
+
+body {
+    background-image: url("img/sunset.jpg");
+    background-size: 1400px 1350px;
+    background-repeat: no-repeat;
+    background-color: #000000;
+}
+
+video {
+	border: solid 6px #1c1c2f;
+}
