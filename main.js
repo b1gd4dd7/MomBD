@@ -12,26 +12,20 @@ function nextImage() {
 var myVideo = document.getElementById("video");
 var myAudio = document.getElementById("audio");
 
-function playPauseVideo() {
-	if (myVideo.paused) {
-		myVideo.play();
-	}else {
-		myVideo.pause();
-	}
-}
-
 function playAudio() {
 	myAudio.play();
 }
 
 function makeBig() { 
 	myVideo.width = 1000;
-	var pp = document.getElementById("pp");
+	myVideo.height = 788;
+	var pp = document.getElementById("AudioButton2");
 	pp.scrollIntoView();
 }
 
 function makeSmall() {
-	myVideo.width = 400;
+	myVideo.width = 420;
+	myVideo.height = 315;
 }
 
 function playMuteAudio() {
